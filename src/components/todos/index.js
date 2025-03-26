@@ -1,5 +1,6 @@
 import { todos } from "./todosDados";
 import { useState } from "react";
+import "./style.css"
 
 function Todos() {
     const [todosList, setTodosList] = useState()
