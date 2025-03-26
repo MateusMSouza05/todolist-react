@@ -1,3 +1,5 @@
+import "./style.css"
+
 function Titulo() {
     return (
         <div className="Titulo">

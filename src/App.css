@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    padding: 30px;
+    background-color: 	#3b2b46;
+}
+
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #ffffea;
+}

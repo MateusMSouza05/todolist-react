@@ -1,13 +1,10 @@
-import{ todos } from "./todosDados";
+import { todos } from "./todosDados";
 import { useState } from "react";
 
-import Titulo from "../Titulo";
-
-function TodoList() {
+function Todos() {
     const [todosList, setTodosList] = useState()
     return (
-       <div className="TodoList">
-        <Titulo/>
+    <div className="TodoList">
         {todos.map((todo) => (
             <div className="todo">
                 <div className="conteudo">
@@ -19,7 +16,8 @@ function TodoList() {
             </div>   
         ) )}
        </div> 
-    )
+       )
 }
 
-export default TodoList
+
+export default Todos
