@@ -1,10 +1,13 @@
 import{ todos } from "./todosDados";
 import { useState } from "react";
 
+import Titulo from "../Titulo";
+
 function TodoList() {
     const [todosList, setTodosList] = useState()
     return (
        <div className="TodoList">
+        <Titulo/>
         {todos.map((todo) => (
             <div className="todo">
                 <div className="conteudo">
